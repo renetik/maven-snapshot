@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-controller-maps",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "renetik-android-controller-maps-master-SNAPSHOT.aar",
+          "url": "renetik-android-controller-maps-master-SNAPSHOT.aar",
+          "size": 32033,
+          "sha512": "f839d95bdc493141e160744403874a3e78a5bc1eb8c0da8a4838fb4492186b63bf8176a56250c3ff948ba4ac849584bde7914631ddf5585cae920dd8471e16e7",
+          "sha256": "2f0be97e75506a267259a50ad4457454a2b168c53f0b4d4e75e6e5cc0f1ef783",
+          "sha1": "51301205055756ebcc1d981f8748f4f2b0052b70",
+          "md5": "f9d9022a52aadeb54b5ca7910d694a5b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-json",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-store",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-imaging",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-controller",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-location",
+          "version": {
+            "requires": "20.0.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-maps",
+          "version": {
+            "requires": "18.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-controller-maps-master-SNAPSHOT.aar",
+          "url": "renetik-android-controller-maps-master-SNAPSHOT.aar",
+          "size": 32033,
+          "sha512": "f839d95bdc493141e160744403874a3e78a5bc1eb8c0da8a4838fb4492186b63bf8176a56250c3ff948ba4ac849584bde7914631ddf5585cae920dd8471e16e7",
+          "sha256": "2f0be97e75506a267259a50ad4457454a2b168c53f0b4d4e75e6e5cc0f1ef783",
+          "sha1": "51301205055756ebcc1d981f8748f4f2b0052b70",
+          "md5": "f9d9022a52aadeb54b5ca7910d694a5b"
+        }
+      ]
+    }
+  ]
+}

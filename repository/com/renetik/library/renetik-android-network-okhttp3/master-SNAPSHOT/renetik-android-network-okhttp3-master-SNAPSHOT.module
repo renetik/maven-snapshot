@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-network-okhttp3",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "renetik-android-network-okhttp3-master-SNAPSHOT.aar",
+          "url": "renetik-android-network-okhttp3-master-SNAPSHOT.aar",
+          "size": 33518,
+          "sha512": "9ac38dccd813a1662ab98d1c5c0f25cdcca0cc16f92c4b46ebe43632b637e4bb0b18e66c4c36471d6f49c246f0a675705d77df631753e5f30c9264f464572b38",
+          "sha256": "a5b82dedd18a7bcd9057360771bb5b589505abb9aeb8e304f04847545f7b428c",
+          "sha1": "b4b39a00b549ee188c0fcffaa0dbe41ac8e57c50",
+          "md5": "d5d2052f2afbd9a753b39f680f43a6d3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-event",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-json",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-ui",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-network",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.amitshekhar.android",
+          "module": "android-networking",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp-urlconnection",
+          "version": {
+            "requires": "4.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-network-okhttp3-master-SNAPSHOT.aar",
+          "url": "renetik-android-network-okhttp3-master-SNAPSHOT.aar",
+          "size": 33518,
+          "sha512": "9ac38dccd813a1662ab98d1c5c0f25cdcca0cc16f92c4b46ebe43632b637e4bb0b18e66c4c36471d6f49c246f0a675705d77df631753e5f30c9264f464572b38",
+          "sha256": "a5b82dedd18a7bcd9057360771bb5b589505abb9aeb8e304f04847545f7b428c",
+          "sha1": "b4b39a00b549ee188c0fcffaa0dbe41ac8e57c50",
+          "md5": "d5d2052f2afbd9a753b39f680f43a6d3"
+        }
+      ]
+    }
+  ]
+}
