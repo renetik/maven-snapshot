@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.renetik.library",
+    "module": "renetik-android-json",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "renetik-android-json-master-SNAPSHOT.aar",
+          "url": "renetik-android-json-master-SNAPSHOT.aar",
+          "size": 35669,
+          "sha512": "cde154b7888dfb75d4610624e6dd82b4a90a83a67602fcf50f54a991fb5b3f4e79bd592b31edbeb998963047362a90443cf061a14440060d469aa86e7229fc42",
+          "sha256": "4c5aeb5d50e8b838d89708274c0cd52e287ef5ef8e1db986c58eb49d7b2132db",
+          "sha1": "32d82c4153d77a612dcdee854bd315b8c56c00d4",
+          "md5": "e015d0d170b12e3f2ec1ea2b893448e7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.renetik.library",
+          "module": "renetik-android-core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "renetik-android-json-master-SNAPSHOT.aar",
+          "url": "renetik-android-json-master-SNAPSHOT.aar",
+          "size": 35669,
+          "sha512": "cde154b7888dfb75d4610624e6dd82b4a90a83a67602fcf50f54a991fb5b3f4e79bd592b31edbeb998963047362a90443cf061a14440060d469aa86e7229fc42",
+          "sha256": "4c5aeb5d50e8b838d89708274c0cd52e287ef5ef8e1db986c58eb49d7b2132db",
+          "sha1": "32d82c4153d77a612dcdee854bd315b8c56c00d4",
+          "md5": "e015d0d170b12e3f2ec1ea2b893448e7"
+        }
+      ]
+    }
+  ]
+}

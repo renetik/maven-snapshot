@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.renetik.library</groupId>
+  <artifactId>renetik-android-ui</artifactId>
+  <versioning>
+    <latest>master-SNAPSHOT</latest>
+    <versions>
+      <version>master-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220817231223</lastUpdated>
+  </versioning>
+</metadata>
